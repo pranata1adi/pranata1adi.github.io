@@ -58164,7 +58164,7 @@ ag(){return new A.I4()}}
 A.I4.prototype={
 R(a){var s=null,r=A.b([new A.qH(s),new A.q6(s),new A.qm(s),new A.p8(s),new A.rX(s)],t.F)
 return A.a64(new A.Ac(this.d,r,s),this.Ka())},
-Ka(){var s,r,q,p,o,n,m=null,l=["assets/images/home.png","iassets/mages/education.png","assets/images/work.png","assets/images/app.png","assets/images/profile.png"],k=["Home","Education","Work Experience","Apps","Profile"],j=$.ag4(),i=$.KW()
+Ka(){var s,r,q,p,o,n,m=null,l=["assets/images/home.png","assets/mages/education.png","assets/images/work.png","assets/images/app.png","assets/images/profile.png"],k=["Home","Education","Work Experience","Apps","Profile"],j=$.ag4(),i=$.KW()
 i=A.b7(15,i.gm()>>>16&255,i.gm()>>>8&255,i.gm()&255)
 s=J.Qf(5,t.cl)
 for(r=t.F,q=0;q<5;++q){p=l[q]
