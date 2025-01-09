@@ -58158,13 +58158,13 @@ A.rX.prototype={
 ag(){return new A.Hj()}}
 A.Hj.prototype={
 R(a){var s=null
-return A.a8b(A.ep("images/coming_soon.png",s,B.eu,s,s),s,s)}}
+return A.a8b(A.ep("assets/images/coming_soon.png",s,B.eu,s,s),s,s)}}
 A.tm.prototype={
 ag(){return new A.I4()}}
 A.I4.prototype={
 R(a){var s=null,r=A.b([new A.qH(s),new A.q6(s),new A.qm(s),new A.p8(s),new A.rX(s)],t.F)
 return A.a64(new A.Ac(this.d,r,s),this.Ka())},
-Ka(){var s,r,q,p,o,n,m=null,l=["images/home.png","images/education.png","images/work.png","images/app.png","images/profile.png"],k=["Home","Education","Work Experience","Apps","Profile"],j=$.ag4(),i=$.KW()
+Ka(){var s,r,q,p,o,n,m=null,l=["assets/images/home.png","iassets/mages/education.png","assets/images/work.png","assets/images/app.png","assets/images/profile.png"],k=["Home","Education","Work Experience","Apps","Profile"],j=$.ag4(),i=$.KW()
 i=A.b7(15,i.gm()>>>16&255,i.gm()>>>8&255,i.gm()&255)
 s=J.Qf(5,t.cl)
 for(r=t.F,q=0;q<5;++q){p=l[q]
