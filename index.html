@@ -1,202 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
 
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Mohamad Waskita Adi Pranata | Android Developer</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
 
-        <link rel="manifest" href="site.webmanifest">
-        <link rel="apple-touch-icon" href="icon.png">
-        <link rel="shortcut icon" href="favicon.ico">
-        <!-- Place favicon.ico in the root directory -->
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
 
-        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/main.css">
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
 
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
 
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
-    <body>
-        <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="myprofile">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-        <!-- Add your site or application content here -->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light jd-navbar">
-            <div class="container">
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/logo.png" width="43" height="43" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#jdNavbar" aria-controls="jdNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="collapse navbar-collapse" id="jdNavbar">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#works">Works</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
 
-        <section class="jd-hero-banner">
-            <div class="container jd-hero-text d-flex justify-content-center">
-                <div class="row align-self-center">
-                    <div class="col">
-                        <h1>Mohamad Waskita Adi Pranata</h1>
-                        <h2>Mobile Developer</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col">
-                        <a class="social-link" href="https://www.linkedin.com/in/mohamad-pranata-43b1b0243/" target="_blank"><i class="p-3 fab fa-linkedin"></i></a>
-                        <a class="social-link" href="https://github.com/pranata1adi" target="_blank"><i class="p-3 fab fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="works" class="jd-works">
-            <div class="container">
-                <div class="row">
-                    <div class="col text-center">
-                        <h3 class="pt-80 m-0 section-header">Recent Works</h3>
-                    </div>
-                </div>
-
-                <div class="row jd-sample-work-container d-flex justify-content-between">
-                    <div class="col-12 col-sm-5 order-2 sample-work-details align-self-center">
-                        <h4 class="title">Bebas™</h4>
-                        <p class="description">Reatail Banking Apps from Bank Multiarta Sentosa Indonesia. </p>
-                        <p class="description">Bebas comes as a solution for financial management and offers various conveniences in transactions and making payments. Through one application with abundant features, all financial transactions become #LebihMudah.</p>
-                        <ul class="status">
-                            <li>Ongoing</li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-sm-6 order-2">
-                        <img src="assets/img/bebas_home_page.png" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="row jd-sample-work-container d-flex justify-content-between">
-                    <div class="col-12 col-sm-5 order-2 sample-work-details align-self-center">
-                        <h4 class="title">Maukerja</h4>
-                        <p class="description">Job search platform in malaysia. fast retrieval from trusted companies</p>
-                        <p class="description">Maukerja - Cari Jawatan Kosong.</p>
-                        <ul class="status">
-                            <li>Ongoing</li>
-                            <li>Live</li>
-                        </ul>
-                        <a href="https://play.google.com/store/apps/details?id=my.maukerja.applicant" target="_blank"><img src="assets/img/google-play-badge.svg" alt=""></a>
-                        <a href="https://apps.apple.com/id/app/maukerja-malaysia-job-search/id1383614538?l=id" target="_blank"><img src="assets/img/appstore.png" width="100px"></a>
-                    </div>
-                    <div class="col-12 col-sm-6 order-1">
-                        <img src="assets/img/maukerja.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="row jd-sample-work-container d-flex justify-content-between">
-                    <div class="col-12 col-sm-5 order-2 sample-work-details align-self-center">
-                        <h4 class="title">Ricebowl</h4>
-                        <p class="description">Ricebowl（铁饭网） is Malaysia's leading job portal for English and Chinese job seekers, with daily updated listings from verified companies. A product of Job Agency Ajobthing Sdn Bhd, Ricebowl has been helping job seekers and employers find the perfect match since 2015.</p>
-                        <p class="description">We offer jobs across Malaysia in various states and major cities. You can search job openings by state or city, including Johor, Kedah, Kuala Lumpur, Sabah, Selangor, and more.</p>
-                        <ul class="status">
-                            <li>Ongoing</li>
-                            <li>Live</li>
-                        </ul>
-                        <a href="https://play.google.com/store/apps/details?id=jermaine.technews" target="_blank"><img src="assets/img/google-play-badge.svg" alt=""></a>
-                        <a href="https://apps.apple.com/id/app/ricebowl-malaysia-jobs-%E5%B7%A5%E4%BD%9C%E7%A9%BA%E7%BC%BA/id1459848985" target="_blank"><img src="assets/img/appstore.png" width="100px"></a>
-                    </div>
-                    <div class="col-12 col-sm-6 order-1">
-                        <img src="assets/img/ricebowl.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="row jd-sample-work-container d-flex justify-content-between">
-                    <div class="col-12 col-sm-5 order-2 order-sm-1 sample-work-details align-self-center">
-                        <h4 class="title">Mola</h4>
-                        <p class="description">MOLA is a well-curated video streaming platform featuring the best entertainment, sports and kids programs.</p>
-                        <ul class="status">
-                            <li>Ongoing</li>
-                            <li>Live</li>
-                        </ul>
-                        <a href="https://play.google.com/store/apps/details?id=tv.mola.app" target="_blank"><img src="assets/img/google-play-badge.svg" alt=""></a>
-                    </div>
-                    <div class="col-12 col-sm-6 order-1 order-sm-2">
-                        <img src="assets/img/mola.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="row jd-sample-work-container d-flex justify-content-between">
-                    <div class="col-12 col-sm-5 order-2 order-sm-1 sample-work-details align-self-center">
-                        <h4 class="title">Brimola</h4>
-                        <p class="description">3kg Pertamina LPG gas ordering application for Bases (Pangkalan).</p>
-                        <ul class="status">
-                            <li>Ongoing</li>
-                            <li>Live</li>
-                        </ul>
-                        <a href="https://play.google.com/store/apps/details?id=id.co.bri.brimola" target="_blank"><img src="assets/img/google-play-badge.svg" alt=""></a>
-                    </div>
-                    <div class="col-12 col-sm-6 order-1 order-sm-2">
-                        <img src="assets/img/brimola.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-
-                <div class="row jd-sample-work-container d-flex justify-content-between">
-                    <div class="col-12 col-sm-5 order-2 sample-work-details align-self-center">
-                        <h4 class="title">Junio Smart</h4>
-                        <p class="description">integrating school, parents and students in one application platform.</p>
-                        <ul class="status">
-                            <li>Ongoing</li>
-                            <li>Live</li>
-                        </ul>
-                        <a href="https://play.google.com/store/apps/details?id=id.co.bri.juniosmart" target="_blank"><img src="assets/img/google-play-badge.svg" alt=""></a>
-                    </div>
-                    <div class="col-12 col-sm-6 order-1">
-                        <img src="assets/img/junio smart.png" width="400px" class="img-fluid">
-                    </div>
-                </div>
-            </div>   
-        </section>
-
-        <section class="jd-footer" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h5>Want to build something?</h5>
-                        <p>Email me at pranata01adi@gmail.com</p>
-                    </div>
-                </div>
-            </div>
-            
-        </section>
-
-        <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-        <script src="assets/js/main.js"></script>
-
-    </body>
+  <title>myprofile</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
 </html>
