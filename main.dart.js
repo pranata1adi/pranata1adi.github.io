@@ -346,7 +346,7 @@ aws(){var s,r=A.dc().b
 if(r==null)s=null
 else{r=r.canvasKitVariant
 if(r==null)r=null
-s=r}r=A.ayB(A.arg(B.CH,s==null?"auto":s))
+s=r}r=A.ayB(A.arg(B.CI,s==null?"auto":s))
 return new A.ap(r,new A.abk(),A.a_(r).h("ap<1,o>"))},
 axR(a,b){return b+a},
 PO(){var s=0,r=A.R(t.e),q,p,o,n,m
@@ -892,7 +892,7 @@ n.m()
 a.m()
 return m},
 ayl(a){var s,r,q,p,o,n,m
-$label0$0:for(s=a.length,r=0;r<6;++r){q=B.CI[r]
+$label0$0:for(s=a.length,r=0;r<6;++r){q=B.CJ[r]
 p=q.c
 o=p.length
 if(s<o)continue $label0$0
@@ -16125,7 +16125,7 @@ r.toString
 A.jw(r)
 q=a.i(0,"swipeEdge")
 q.toString
-return new A.F7(s,r,B.Ch[A.cN(q)])},
+return new A.F7(s,r,B.Ci[A.cN(q)])},
 wA:function wA(a,b){this.a=a
 this.b=b},
 F7:function F7(a,b,c){this.a=a
@@ -17368,7 +17368,7 @@ q=b.as
 if(a.as!==q)return q?-1:1
 return 0},
 ar7(a,b){var s=A.a_(b).h("ap<1,cv>")
-return A.aqE(!0,A.a0(new A.ap(b,new A.T0(),s),!0,s.h("aH.E")),a,B.CE,!0,B.zH,null)},
+return A.aqE(!0,A.a0(new A.ap(b,new A.T0(),s),!0,s.h("aH.E")),a,B.CF,!0,B.zH,null)},
 ar5(a){a.c0()
 a.aT(A.am6())},
 adI(a){var s=a.a,r=s instanceof A.lX?s:null
@@ -23279,7 +23279,7 @@ MR(){var s=this.Q
 s===$&&A.a()
 return s},
 Bq(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.CC
+if(a<0||b<0)return B.CD
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -23298,7 +23298,7 @@ l.push(new A.fz(n[0],n[1],n[2],n[3],B.fS[m]))}return l},
 dk(a){var s,r=this.a
 r===$&&A.a()
 r=r.a.getGlyphPositionAtCoordinate(a.a,a.b)
-s=B.Ci[B.c.X(r.affinity.value)]
+s=B.Cj[B.c.X(r.affinity.value)]
 return new A.aq(B.c.X(r.pos),s)},
 MU(a){var s=this.a
 s===$&&A.a()
@@ -26532,7 +26532,7 @@ if(r.f!==B.jQ){r.f=B.jQ
 r.FS()}}return r.d.a.NO(a)},
 FS(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-NN(a){if(B.b.q(B.Cm,a))return this.f===B.dP
+NN(a){if(B.b.q(B.Cn,a))return this.f===B.dP
 return!1}}
 A.TA.prototype={
 $0(){return new A.dZ(Date.now(),0,!1)},
@@ -31649,7 +31649,7 @@ if(o>0)return s
 return null}}
 A.a66.prototype={
 D(a,b){this.DY(0,b,0,b.length,!1)},
-aQ(a){this.DY(0,B.Cw,0,0,!0)}}
+aQ(a){this.DY(0,B.Cx,0,0,!0)}}
 A.aaV.prototype={
 DY(a,b,c,d,e){var s=this.b.a2i(b,c,d,e)
 if(s!=null)this.a.k7(s,0,s.length,e)}}
@@ -37488,7 +37488,7 @@ A.q1.prototype={
 F(){return"_CornerId."+this.b}}
 A.jl.prototype={}
 A.oT.prototype={
-hV(){var s,r,q=this,p=A.axh(B.CG,new A.Zo(q,q.b.gb1().aa(0,q.a.gb1()))),o=q.a
+hV(){var s,r,q=this,p=A.axh(B.CH,new A.Zo(q,q.b.gb1().aa(0,q.a.gb1()))),o=q.a
 o.toString
 s=p.a
 o=q.lx(o,s)
@@ -39921,7 +39921,7 @@ rq(a,b,c,d,e,f){return A.aqs(a,b,c,d,e,f)}}
 A.ET.prototype={
 rq(a,b,c,d,e,f){return new A.qu(B.hf,a,c,d,e,null,f.h("qu<0>"))},
 Sc(a){var s=t.Tr
-return A.a0(new A.ap(B.CK,new A.a_A(a),s),!0,s.h("aH.E"))},
+return A.a0(new A.ap(B.CL,new A.a_A(a),s),!0,s.h("aH.E"))},
 j(a,b){if(b==null)return!1
 if(this===b)return!0
 if(J.M(b)!==A.v(this))return!1
@@ -43674,7 +43674,7 @@ MT(a){var s=this.b,r=s.a.c.MU(a.aa(0,s.geP()))
 if(r==null||s.geP().j(0,B.j))return r
 return new A.m8(r.a.cS(s.geP()),r.b,r.c)},
 y8(){var s,r,q=this.b,p=q.geP()
-if(!isFinite(p.a)||!isFinite(p.b))return B.CD
+if(!isFinite(p.a)||!isFinite(p.b))return B.CE
 s=q.f
 if(s==null){s=q.a.c.y8()
 q.f=s}if(p.j(0,B.j))r=s
@@ -50835,7 +50835,7 @@ break
 case 1:return A.P(q,r)}})
 return A.Q($async$wf,r)},
 Un(a,b){var s,r,q,p
-if(a===b)return B.CA
+if(a===b)return B.CB
 s=A.b([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.kB(B.cM,a)
@@ -55344,7 +55344,7 @@ A.fW.prototype={
 j(a,b){if(b==null)return!1
 if(J.M(b)!==A.v(this))return!1
 return b instanceof A.fW&&b.a===this.a&&b.d===this.d&&A.dd(null,null)},
-gu(a){return A.L(this.a,"MaterialIcons",null,this.d,A.bO(B.CF),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+gu(a){return A.L(this.a,"MaterialIcons",null,this.d,A.bO(B.CG),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.e.pj(B.h.iv(this.a,16).toUpperCase(),5,"0")+")"}}
 A.me.prototype={
 bv(a){return!this.w.j(0,a.w)}}
@@ -56031,7 +56031,7 @@ g=s&&d
 b=s?d:b.ch
 if(b==null)b=B.hm
 s=s&&d
-f=new A.uH(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.t9(d),B.CB,s===!0)
+f=new A.uH(a1,a,q,p,l,o,n,a0,g===!0,m,k,h,c,j,i,b,new A.t9(d),B.CC,s===!0)
 if(!f.j(0,e.e))e.am(new A.a93(e,f))},
 Jz(){this.nY()},
 JB(){if(this.d==null)this.nY()},
@@ -56372,7 +56372,7 @@ r.K(0,s.Mc(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Cx[p]
+for(;!1;++p){o=B.Cy[p]
 n=l.c
 n.toString
 m=new A.f4(o.yk(n),null,!0,B.il,B.aP,new A.nH(new ($.Q3())(B.aP)),B.aP)
@@ -56713,7 +56713,7 @@ N(a){var s,r,q=this,p=null,o=q.gW3(),n=A.ov(a),m=q.be$,l=q.d
 l===$&&A.a()
 s=q.a.ax
 if(l.gaN()==null){r=q.gDd()
-r=J.mk(r.slice(0),A.a_(r).c)}else r=B.Cy
+r=J.mk(r.slice(0),A.a_(r).c)}else r=B.Cz
 return new A.ma(p,new A.bY(new A.a_f(q,a),A.uy(B.bC,new A.AQ(!1,A.adK(A.D2(!0,p,A.a4X(m,new A.p_(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.gXx(),p,p,o),p,t.w3),p)}}
 A.a_e.prototype={
 $1(a){var s=this.a.c
@@ -61859,7 +61859,7 @@ r.r4()
 return s.aK()},
 m(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gwh(),p=0;p<s.length;s.length===r||(0,A.F)(s),++p)s[p].J(0,q)
-o.b=B.Cz
+o.b=B.CA
 o.y=!1
 o.dD()},
 co(a,b){return a.j5(b)},
@@ -64763,7 +64763,7 @@ A.ts.prototype={
 ad(){return new A.JA()}}
 A.JA.prototype={
 N(a){var s=null
-return A.ae7(s,!1,!1,s,s,!1,!1,A.a1D(s,B.yQ,A.jR(new A.GG(B.b5,A.pi(B.C9,B.a5,B.p3,B.ap),s),s,s),s,s),s,s,s,s,s,s,s,B.fT,s,s,s,s,B.hd,s,s,s,!1,!1,B.dY,s,B.eG,"")}}
+return A.ae7(s,!1,!1,s,s,!1,!1,A.a1D(s,B.yQ,A.jR(new A.GG(B.b5,A.pi(B.Ca,B.a5,B.p3,B.ap),s),s,s),s,s),s,s,s,s,s,s,s,B.fT,s,s,s,s,B.hd,s,s,s,!1,!1,B.dY,s,B.eG,"")}}
 A.oo.prototype={
 N(a){var s=this,r=null,q=s.e,p=A.lw(20)
 return A.jV(r,A.oe(A.b([A.i6(s.d,A.hg(r,r,q.j(0,B.i)?B.l:B.i,r,r,r,r,r,r,r,r,22,r,r,B.bz,r,r,!0,r,r,r,r,r,r,r,r),B.bh),B.eD,A.mf(s.f,r,r,300,300),B.eD,A.j9(s.Sr(s.c),r,1/0)],t.E),B.a5,B.e8,B.ap),B.w,r,r,new A.dt(q,r,r,p,r,r,B.az),r,r,B.A_,B.A7,r,r,300)},
@@ -64789,8 +64789,8 @@ A.SX.prototype={
 $0(){$.aon().xV("open",[this.a.a])},
 $S:0}
 A.Dq.prototype={
-N(a){var s=this,r=null,q=A.pi(B.CP,B.a5,B.ao,B.ap),p=t.E,o=A.a_($.amJ).h("ap<1,h>"),n=A.a_($.alQ).h("ap<1,h>")
-return A.a1D(new A.rk(q,0,B.EL,new A.LY(r,r,1/0,56),r),r,A.ait(A.b([B.N_,B.IM,A.i6("Crafting quality software for mobile and web platforms.",A.hg(r,r,B.bx,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),B.i0,A.j9(new A.v9(A.asR(0.8),A.ajO(A.b([s.Do("assets/banner_1.png"),s.Do("assets/banner_2.png")],p),!0,!0,!0),r),500,r),B.i1,B.MZ,B.i_,A.pi(A.b([s.wy(B.Az,"Android App",B.EM),B.uZ,s.wy(B.AB,"Flutter App",B.EK),B.uZ,s.wy(B.AA,"Website",B.EH)],p),B.a5,B.p4,B.ap),B.i1,B.MX,B.i0,A.aeU(B.ig,A.a0(new A.ap($.amJ,new A.Vq(s),o),!0,o.h("aH.E")),16,16),B.i1,B.MW,B.i0,A.aeU(B.ig,A.a0(new A.ap($.alQ,new A.Vr(s),n),!0,n.h("aH.E")),16,16)],p),B.A1,!1),r,r)},
+N(a){var s=this,r=null,q=A.pi(B.C4,B.a5,B.ao,B.ap),p=t.E,o=A.a_($.amJ).h("ap<1,h>"),n=A.a_($.alQ).h("ap<1,h>")
+return A.a1D(new A.rk(q,0,B.EL,new A.LY(r,r,1/0,56),r),r,A.ait(A.b([B.N_,B.IM,A.i6("Crafting quality software for mobile and web platforms.",A.hg(r,r,B.bx,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r),B.i0,A.j9(new A.v9(A.asR(0.8),A.ajO(A.b([s.Do("assets/images/banner_1.png"),s.Do("assets/images/banner_2.png")],p),!0,!0,!0),r),500,r),B.i1,B.MZ,B.i_,A.pi(A.b([s.wy(B.Az,"Android App",B.EM),B.uZ,s.wy(B.AB,"Flutter App",B.EK),B.uZ,s.wy(B.AA,"Website",B.EH)],p),B.a5,B.p4,B.ap),B.i1,B.MX,B.i0,A.aeU(B.ig,A.a0(new A.ap($.amJ,new A.Vq(s),o),!0,o.h("aH.E")),16,16),B.i1,B.MW,B.i0,A.aeU(B.ig,A.a0(new A.ap($.alQ,new A.Vr(s),n),!0,n.h("aH.E")),16,16)],p),B.A1,!1),r,r)},
 Do(a){var s=null,r=A.lw(12)
 return A.jV(s,s,B.w,s,s,new A.dt(s,A.ah4(B.iG,new A.iv(a,s,s),s),s,r,s,s,B.az),s,s,B.A5,s,s,s,1/0)},
 a_S(a){var s=null,r=J.aO(a),q=r.i(a,"image")
@@ -64835,13 +64835,13 @@ A.vi.prototype={
 ad(){return new A.LZ()}}
 A.LZ.prototype={
 N(a){var s=null
-return A.jR(A.mf("assets/intro.png",s,B.f7,s,s),s,s)}}
+return A.jR(A.mf("assets/images/intro.png",s,B.f7,s,s),s,s)}}
 A.vL.prototype={
 ad(){return new A.MN()}}
 A.MN.prototype={
 N(a){var s=null,r=A.b([new A.Dq(s),new A.ts(s),new A.wF(s),new A.vi(s)],t.E)
 return A.a1D(s,s,new A.tZ(new A.DD(this.d,r,s),s),this.MX(),s)},
-MX(){var s,r,q,p,o,n,m=null,l=["assets/home.png","assets/education.png","assets/tech.png","assets/profile.png"],k=["Home","Education","Tech Stack","Profile"],j=$.apg(),i=$.Q9()
+MX(){var s,r,q,p,o,n,m=null,l=["assets/images/home.png","assets/images/education.png","assets/images/tech.png","assets/images/profile.png"],k=["Home","Education","Tech Stack","Profile"],j=$.apg(),i=$.Q9()
 i=A.ay(15,i.gl(0)>>>16&255,i.gl(0)>>>8&255,i.gl(0)&255)
 s=J.W5(4,t.l7)
 for(r=t.E,q=0;q<4;++q){p=l[q]
@@ -64878,11 +64878,11 @@ N(a){var s=this,r=null,q=A.mf(s.c,r,r,120,r),p=A.jR(A.i6(s.d,A.hg(r,r,B.A,r,r,r,
 return A.jR(new A.fr(B.jL,A.ait(A.b([q,B.eD,p,B.i_,A.i6(s.e,A.hg(r,r,B.pe,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),B.bh),B.v0,s.a0F(),B.v0,s.a0G(),B.eD,A.j9(A.ahC(B.MU,new A.a5o(),A.ahD(r,r,B.EN,r,r,r,r,r,r,r,r,r,B.jK,r,new A.cA(A.lw(32),B.q),r,r,r,r)),r,1/0),B.i_],t.E),r,!0),r),r,r)},
 a0F(){var s=null,r=this.f
 A.Au().$1("callAndroid: "+A.k(r))
-if(r!==""&&r!=null)return A.tW(s,A.pi(A.b([A.mf("assets/playstore.png",s,s,50,50),B.uY,B.MY],t.E),B.a5,B.ao,B.ap),B.aj,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.a5p(this),s,s,s)
+if(r!==""&&r!=null)return A.tW(s,A.pi(A.b([A.mf("assets/images/playstore.png",s,s,50,50),B.uY,B.MY],t.E),B.a5,B.ao,B.ap),B.aj,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.a5p(this),s,s,s)
 else return A.j9(s,s,s)},
 a0G(){var s=null,r=this.r
 A.Au().$1("callIos: "+A.k(r))
-if(r!==""&&r!=null)return A.tW(s,A.pi(A.b([A.mf("assets/appstore.png",s,s,50,50),B.uY,B.MV],t.E),B.a5,B.ao,B.ap),B.aj,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.a5q(this),s,s,s)
+if(r!==""&&r!=null)return A.tW(s,A.pi(A.b([A.mf("assets/images/appstore.png",s,s,50,50),B.uY,B.MV],t.E),B.a5,B.ao,B.ap),B.aj,!1,s,s,s,s,s,s,s,s,s,s,s,s,new A.a5q(this),s,s,s)
 else return A.j9(s,s,s)}}
 A.a5o.prototype={
 $0(){A.arE($.c2())},
@@ -67725,7 +67725,7 @@ B.xe=new A.a51()
 B.T=new A.a54()
 B.bw=new A.a56()
 B.cm=new A.HJ(0,0,0,0)
-B.CB=A.b(s([]),A.ac("x<aA8>"))
+B.CC=A.b(s([]),A.ac("x<aA8>"))
 B.P6=new A.a5b()
 B.aE={}
 B.pa=new A.by(B.aE,[],t.li)
@@ -68088,11 +68088,18 @@ B.io=new A.yW(0,"named")
 B.vH=new A.yW(1,"anonymous")
 B.C_=A.b(s([B.io,B.vH]),A.ac("x<yW>"))
 B.C3=A.b(s([B.f5,B.f6]),A.ac("x<rm>"))
+B.Ay=new A.fW(58283,!1)
+B.AE=new A.u4(B.Ay,null,B.i,null,null)
+B.IL=new A.dy(8,null,null,null)
+B.L_=new A.r(!0,B.i,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+B.bi=new A.wM(2,"ellipsis")
+B.N0=new A.eZ("Hamamatsu, Shizuoka, Japan",null,B.L_,null,B.bi,null)
+B.Ah=new A.tE(1,B.fM,B.N0,null)
+B.vR=new A.iv("assets/images/profile_adi.png",null,null)
+B.xu=new A.rE(null,B.vR,16,null)
+B.C4=A.b(s([B.AE,B.IL,B.Ah,B.xu]),t.E)
 B.k4=A.b(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 B.cM=A.b(s([B.bq,B.b3,B.dl,B.dm,B.f4]),t.QP)
-B.CR=new A.iR("en","US")
-B.dY=A.b(s([B.CR]),t.ss)
-B.k5=A.b(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
 B.za=new A.p(1,0.9098039215686274,0.9176470588235294,0.9647058823529412,B.d)
 B.ya=new A.p(1,0.7725490196078432,0.792156862745098,0.9137254901960784,B.d)
 B.xJ=new A.p(1,0.6235294117647059,0.6588235294117647,0.8549019607843137,B.d)
@@ -68105,23 +68112,26 @@ B.xZ=new A.p(1,0.1568627450980392,0.20784313725490197,0.5764705882352941,B.d)
 B.yV=new A.p(1,0.10196078431372549,0.13725490196078433,0.49411764705882355,B.d)
 B.EB=new A.bS([50,B.za,100,B.ya,200,B.xJ,300,B.xI,400,B.yW,500,B.yN,600,B.yK,700,B.z7,800,B.xZ,900,B.yV],t.v)
 B.pf=new A.h0(B.EB,1,0.24705882352941178,0.3176470588235294,0.7098039215686275,B.d)
-B.Aa=new A.oo(0,"Shizuoka University",B.pf,"assets/master_degree.png",null)
+B.Ac=new A.oo(0,"Shizuoka University",B.pf,"assets/images/master_degree.png",null)
 B.v_=new A.dy(24,null,null,null)
-B.Ac=new A.oo(1,"Universitas Diponogoro",B.i,"assets/engineer_degree.png",null)
+B.Ab=new A.oo(1,"Universitas Diponogoro",B.i,"assets/images/engineer_degree.png",null)
 B.xz=new A.p(1,0.5098039215686274,0.6941176470588235,1,B.d)
 B.xW=new A.p(1,0.26666666666666666,0.5411764705882353,1,B.d)
 B.yg=new A.p(1,0.1607843137254902,0.4745098039215686,1,B.d)
 B.yF=new A.p(1,0.1607843137254902,0.3843137254901961,1,B.d)
 B.Eo=new A.bS([100,B.xz,200,B.xW,400,B.yg,700,B.yF],t.v)
 B.EG=new A.uD(B.Eo,1,0.26666666666666666,0.5411764705882353,1,B.d)
-B.Ab=new A.oo(2,"Universitas Islam Indonesia",B.EG,"assets/bachelor_degree.png",null)
-B.C9=A.b(s([B.Aa,B.v_,B.Ac,B.v_,B.Ab]),t.E)
+B.Aa=new A.oo(2,"Universitas Islam Indonesia",B.EG,"assets/images/bachelor_degree.png",null)
+B.Ca=A.b(s([B.Ac,B.v_,B.Ab,B.v_,B.Aa]),t.E)
+B.CR=new A.iR("en","US")
+B.dY=A.b(s([B.CR]),t.ss)
+B.k5=A.b(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
 B.J1=new A.wA(0,"left")
 B.J2=new A.wA(1,"right")
-B.Ch=A.b(s([B.J1,B.J2]),A.ac("x<wA>"))
+B.Ci=A.b(s([B.J1,B.J2]),A.ac("x<wA>"))
 B.aw=new A.wG(0,"upstream")
 B.n=new A.wG(1,"downstream")
-B.Ci=A.b(s([B.aw,B.n]),A.ac("x<wG>"))
+B.Cj=A.b(s([B.aw,B.n]),A.ac("x<wG>"))
 B.ax=new A.wK(0,"rtl")
 B.ad=new A.wK(1,"ltr")
 B.fS=A.b(s([B.ax,B.ad]),A.ac("x<wK>"))
@@ -68135,25 +68145,25 @@ B.Ar=new A.fg(5)
 B.As=new A.fg(7)
 B.jO=new A.fg(8)
 B.k7=A.b(s([B.Ao,B.Ap,B.Aq,B.B,B.a6,B.Ar,B.bz,B.As,B.jO]),A.ac("x<fg>"))
-B.Cm=A.b(s(["click","scroll"]),t.s)
-B.CA=A.b(s([]),t.QP)
+B.Cn=A.b(s(["click","scroll"]),t.s)
+B.CB=A.b(s([]),t.QP)
 B.k9=A.b(s([]),A.ac("x<azT>"))
-B.CE=A.b(s([]),t.F)
-B.CD=A.b(s([]),t.ER)
+B.CF=A.b(s([]),t.F)
+B.CE=A.b(s([]),t.ER)
 B.fT=A.b(s([]),t.tc)
 B.dZ=A.b(s([]),t.jl)
-B.Cy=A.b(s([]),t.fy)
-B.Cx=A.b(s([]),A.ac("x<aiU<@>>"))
+B.Cz=A.b(s([]),t.fy)
+B.Cy=A.b(s([]),A.ac("x<aiU<@>>"))
 B.fV=A.b(s([]),t.AO)
-B.Cz=A.b(s([]),t.D1)
+B.CA=A.b(s([]),t.D1)
 B.fU=A.b(s([]),t.d)
 B.k8=A.b(s([]),t.s)
 B.ah=A.b(s([]),t.oU)
-B.CC=A.b(s([]),t.Lx)
+B.CD=A.b(s([]),t.Lx)
 B.Pf=A.b(s([]),t.E)
-B.Cw=A.b(s([]),t.t)
+B.Cx=A.b(s([]),t.t)
 B.ka=A.b(s([]),t.ee)
-B.CF=A.b(s([]),t.XS)
+B.CG=A.b(s([]),t.XS)
 B.vr=new A.q1(0,"topLeft")
 B.vu=new A.q1(3,"bottomRight")
 B.O8=new A.jl(B.vr,B.vu)
@@ -68162,7 +68172,7 @@ B.vs=new A.q1(1,"topRight")
 B.vt=new A.q1(2,"bottomLeft")
 B.O9=new A.jl(B.vs,B.vt)
 B.Oa=new A.jl(B.vt,B.vs)
-B.CG=A.b(s([B.O8,B.Ob,B.O9,B.Oa]),A.ac("x<jl>"))
+B.CH=A.b(s([B.O8,B.Ob,B.O9,B.Oa]),A.ac("x<jl>"))
 B.c5=new A.eS(0,"controlModifier")
 B.c6=new A.eS(1,"shiftModifier")
 B.c7=new A.eS(2,"altModifier")
@@ -68176,15 +68186,15 @@ B.kb=A.b(s([B.c5,B.c6,B.c7,B.c8,B.hh,B.hi,B.hj,B.hk,B.pi]),A.ac("x<eS>"))
 B.xo=new A.o5(0,"auto")
 B.xp=new A.o5(1,"full")
 B.xq=new A.o5(2,"chromium")
-B.CH=A.b(s([B.xo,B.xp,B.xq]),A.ac("x<o5>"))
-B.Cj=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
+B.CI=A.b(s([B.xo,B.xp,B.xq]),A.ac("x<o5>"))
+B.Ck=A.b(s([137,80,78,71,13,10,26,10]),t.Z)
 B.AL=new A.k6(0,"png")
 B.AX=new A.hK(B.AL,!1,0,"png")
-B.AI=new A.iJ(B.Cj,B.AX,0,"png")
-B.Cf=A.b(s([71,73,70,56,55,97]),t.Z)
-B.AJ=new A.iJ(B.Cf,B.dS,1,"gif87a")
-B.Cg=A.b(s([71,73,70,56,57,97]),t.Z)
-B.AH=new A.iJ(B.Cg,B.dS,2,"gif89a")
+B.AI=new A.iJ(B.Ck,B.AX,0,"png")
+B.Cg=A.b(s([71,73,70,56,55,97]),t.Z)
+B.AJ=new A.iJ(B.Cg,B.dS,1,"gif87a")
+B.Ch=A.b(s([71,73,70,56,57,97]),t.Z)
+B.AH=new A.iJ(B.Ch,B.dS,2,"gif89a")
 B.Bg=A.b(s([255,216,255]),t.Z)
 B.AM=new A.k6(2,"jpeg")
 B.AV=new A.hK(B.AM,!1,3,"jpeg")
@@ -68195,25 +68205,15 @@ B.BR=A.b(s([66,77]),t.Z)
 B.AN=new A.k6(4,"bmp")
 B.AS=new A.hK(B.AN,!1,6,"bmp")
 B.AF=new A.iJ(B.BR,B.AS,5,"bmp")
-B.CI=A.b(s([B.AI,B.AJ,B.AH,B.AG,B.AK,B.AF]),A.ac("x<iJ>"))
+B.CJ=A.b(s([B.AI,B.AJ,B.AH,B.AG,B.AK,B.AF]),A.ac("x<iJ>"))
 B.e_=A.b(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
-B.CJ=A.b(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.n)
+B.CK=A.b(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.n)
 B.aL=new A.dM(1,"fuchsia")
 B.aZ=new A.dM(3,"linux")
 B.b_=new A.dM(5,"windows")
-B.CK=A.b(s([B.aa,B.aL,B.ab,B.aZ,B.aM,B.b_]),A.ac("x<dM>"))
+B.CL=A.b(s([B.aa,B.aL,B.ab,B.aZ,B.aM,B.b_]),A.ac("x<dM>"))
 B.fW=A.b(s([!0,!1]),t.HZ)
 B.fX=A.b(s([0,0,65498,45055,65535,34815,65534,18431]),t.t)
-B.Ay=new A.fW(58283,!1)
-B.AE=new A.u4(B.Ay,null,B.i,null,null)
-B.IL=new A.dy(8,null,null,null)
-B.L_=new A.r(!0,B.i,null,null,null,null,14,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.bi=new A.wM(2,"ellipsis")
-B.N0=new A.eZ("Hamamatsu, Shizuoka, Japan",null,B.L_,null,B.bi,null)
-B.Ah=new A.tE(1,B.fM,B.N0,null)
-B.vR=new A.iv("assets/profile_adi.png",null,null)
-B.xu=new A.rE(null,B.vR,16,null)
-B.CP=A.b(s([B.AE,B.IL,B.Ah,B.xu]),t.E)
 B.CQ=A.b(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup"]),t.s)
 B.CS=new A.iR("und",null)
 B.k=new A.uB(0,"ignored")
@@ -68244,52 +68244,52 @@ B.hb=new A.E9(0,"min")
 B.ap=new A.E9(1,"max")
 B.ki=new A.f(42)
 B.oZ=new A.f(8589935146)
-B.C4=A.b(s([B.ki,null,null,B.oZ]),t.L)
+B.C5=A.b(s([B.ki,null,null,B.oZ]),t.L)
 B.oL=new A.f(43)
 B.p_=new A.f(8589935147)
-B.C5=A.b(s([B.oL,null,null,B.p_]),t.L)
+B.C6=A.b(s([B.oL,null,null,B.p_]),t.L)
 B.oM=new A.f(45)
 B.p0=new A.f(8589935149)
-B.C6=A.b(s([B.oM,null,null,B.p0]),t.L)
+B.C7=A.b(s([B.oM,null,null,B.p0]),t.L)
 B.oN=new A.f(46)
 B.bH=new A.f(8589935150)
-B.C7=A.b(s([B.oN,null,null,B.bH]),t.L)
+B.C8=A.b(s([B.oN,null,null,B.bH]),t.L)
 B.oO=new A.f(47)
 B.p1=new A.f(8589935151)
-B.C8=A.b(s([B.oO,null,null,B.p1]),t.L)
+B.C9=A.b(s([B.oO,null,null,B.p1]),t.L)
 B.oP=new A.f(48)
 B.h7=new A.f(8589935152)
-B.Co=A.b(s([B.oP,null,null,B.h7]),t.L)
+B.Cp=A.b(s([B.oP,null,null,B.h7]),t.L)
 B.oQ=new A.f(49)
 B.cV=new A.f(8589935153)
-B.Cp=A.b(s([B.oQ,null,null,B.cV]),t.L)
+B.Cq=A.b(s([B.oQ,null,null,B.cV]),t.L)
 B.oR=new A.f(50)
 B.bI=new A.f(8589935154)
-B.Cq=A.b(s([B.oR,null,null,B.bI]),t.L)
+B.Cr=A.b(s([B.oR,null,null,B.bI]),t.L)
 B.oS=new A.f(51)
 B.cW=new A.f(8589935155)
-B.Cr=A.b(s([B.oS,null,null,B.cW]),t.L)
+B.Cs=A.b(s([B.oS,null,null,B.cW]),t.L)
 B.oT=new A.f(52)
 B.bJ=new A.f(8589935156)
-B.Cs=A.b(s([B.oT,null,null,B.bJ]),t.L)
+B.Ct=A.b(s([B.oT,null,null,B.bJ]),t.L)
 B.oU=new A.f(53)
 B.h8=new A.f(8589935157)
-B.Ct=A.b(s([B.oU,null,null,B.h8]),t.L)
+B.Cu=A.b(s([B.oU,null,null,B.h8]),t.L)
 B.oV=new A.f(54)
 B.bK=new A.f(8589935158)
-B.Cu=A.b(s([B.oV,null,null,B.bK]),t.L)
+B.Cv=A.b(s([B.oV,null,null,B.bK]),t.L)
 B.oW=new A.f(55)
 B.cX=new A.f(8589935159)
-B.Cv=A.b(s([B.oW,null,null,B.cX]),t.L)
+B.Cw=A.b(s([B.oW,null,null,B.cX]),t.L)
 B.oX=new A.f(56)
 B.bL=new A.f(8589935160)
-B.Ck=A.b(s([B.oX,null,null,B.bL]),t.L)
+B.Cl=A.b(s([B.oX,null,null,B.bL]),t.L)
 B.oY=new A.f(57)
 B.cY=new A.f(8589935161)
-B.Cl=A.b(s([B.oY,null,null,B.cY]),t.L)
-B.CL=A.b(s([B.cT,B.cT,B.e6,null]),t.L)
+B.Cm=A.b(s([B.oY,null,null,B.cY]),t.L)
+B.CM=A.b(s([B.cT,B.cT,B.e6,null]),t.L)
 B.e2=new A.f(4294967555)
-B.Cn=A.b(s([B.e2,null,B.e2,null]),t.L)
+B.Co=A.b(s([B.e2,null,B.e2,null]),t.L)
 B.aI=new A.f(4294968065)
 B.BS=A.b(s([B.aI,null,null,B.bI]),t.L)
 B.aC=new A.f(4294968066)
@@ -68300,7 +68300,7 @@ B.aJ=new A.f(4294968068)
 B.BG=A.b(s([B.aJ,null,null,B.bL]),t.L)
 B.h0=new A.f(4294968321)
 B.C0=A.b(s([B.h0,null,null,B.h8]),t.L)
-B.CM=A.b(s([B.cS,B.cS,B.e5,null]),t.L)
+B.CN=A.b(s([B.cS,B.cS,B.e5,null]),t.L)
 B.BZ=A.b(s([B.a3,null,null,B.bH]),t.L)
 B.bE=new A.f(4294968069)
 B.BV=A.b(s([B.bE,null,null,B.cV]),t.L)
@@ -68311,13 +68311,13 @@ B.bF=new A.f(4294968070)
 B.BW=A.b(s([B.bF,null,null,B.cX]),t.L)
 B.h1=new A.f(4294968327)
 B.C1=A.b(s([B.h1,null,null,B.h7]),t.L)
-B.CN=A.b(s([B.cU,B.cU,B.e7,null]),t.L)
+B.CO=A.b(s([B.cU,B.cU,B.e7,null]),t.L)
 B.cQ=new A.f(4294968071)
 B.BX=A.b(s([B.cQ,null,null,B.cW]),t.L)
 B.cR=new A.f(4294968072)
 B.Bj=A.b(s([B.cR,null,null,B.cY]),t.L)
-B.CO=A.b(s([B.bG,B.bG,B.c4,null]),t.L)
-B.El=new A.bS(["*",B.C4,"+",B.C5,"-",B.C6,".",B.C7,"/",B.C8,"0",B.Co,"1",B.Cp,"2",B.Cq,"3",B.Cr,"4",B.Cs,"5",B.Ct,"6",B.Cu,"7",B.Cv,"8",B.Ck,"9",B.Cl,"Alt",B.CL,"AltGraph",B.Cn,"ArrowDown",B.BS,"ArrowLeft",B.BT,"ArrowRight",B.BU,"ArrowUp",B.BG,"Clear",B.C0,"Control",B.CM,"Delete",B.BZ,"End",B.BV,"Enter",B.BQ,"Home",B.BW,"Insert",B.C1,"Meta",B.CN,"PageDown",B.BX,"PageUp",B.Bj,"Shift",B.CO],A.ac("bS<o,E<f?>>"))
+B.CP=A.b(s([B.bG,B.bG,B.c4,null]),t.L)
+B.El=new A.bS(["*",B.C5,"+",B.C6,"-",B.C7,".",B.C8,"/",B.C9,"0",B.Cp,"1",B.Cq,"2",B.Cr,"3",B.Cs,"4",B.Ct,"5",B.Cu,"6",B.Cv,"7",B.Cw,"8",B.Cl,"9",B.Cm,"Alt",B.CM,"AltGraph",B.Co,"ArrowDown",B.BS,"ArrowLeft",B.BT,"ArrowRight",B.BU,"ArrowUp",B.BG,"Clear",B.C0,"Control",B.CN,"Delete",B.BZ,"End",B.BV,"Enter",B.BQ,"Home",B.BW,"Insert",B.C1,"Meta",B.CO,"PageDown",B.BX,"PageUp",B.Bj,"Shift",B.CP],A.ac("bS<o,E<f?>>"))
 B.Bx=A.b(s([42,null,null,8589935146]),t.Z)
 B.By=A.b(s([43,null,null,8589935147]),t.Z)
 B.BA=A.b(s([45,null,null,8589935149]),t.Z)
@@ -68333,24 +68333,24 @@ B.BM=A.b(s([54,null,null,8589935158]),t.Z)
 B.BN=A.b(s([55,null,null,8589935159]),t.Z)
 B.BO=A.b(s([56,null,null,8589935160]),t.Z)
 B.BP=A.b(s([57,null,null,8589935161]),t.Z)
-B.Ca=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
+B.Cb=A.b(s([8589934852,8589934852,8589934853,null]),t.Z)
 B.Bm=A.b(s([4294967555,null,4294967555,null]),t.Z)
 B.Bn=A.b(s([4294968065,null,null,8589935154]),t.Z)
 B.Bo=A.b(s([4294968066,null,null,8589935156]),t.Z)
 B.Bp=A.b(s([4294968067,null,null,8589935158]),t.Z)
 B.Bq=A.b(s([4294968068,null,null,8589935160]),t.Z)
 B.Bv=A.b(s([4294968321,null,null,8589935157]),t.Z)
-B.Cb=A.b(s([8589934848,8589934848,8589934849,null]),t.Z)
+B.Cc=A.b(s([8589934848,8589934848,8589934849,null]),t.Z)
 B.Bl=A.b(s([4294967423,null,null,8589935150]),t.Z)
 B.Br=A.b(s([4294968069,null,null,8589935153]),t.Z)
 B.Bk=A.b(s([4294967309,null,null,8589935117]),t.Z)
 B.Bs=A.b(s([4294968070,null,null,8589935159]),t.Z)
 B.Bw=A.b(s([4294968327,null,null,8589935152]),t.Z)
-B.Cc=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
+B.Cd=A.b(s([8589934854,8589934854,8589934855,null]),t.Z)
 B.Bt=A.b(s([4294968071,null,null,8589935155]),t.Z)
 B.Bu=A.b(s([4294968072,null,null,8589935161]),t.Z)
-B.Cd=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
-B.p5=new A.bS(["*",B.Bx,"+",B.By,"-",B.BA,".",B.BB,"/",B.BC,"0",B.BD,"1",B.BE,"2",B.BI,"3",B.BJ,"4",B.BK,"5",B.BL,"6",B.BM,"7",B.BN,"8",B.BO,"9",B.BP,"Alt",B.Ca,"AltGraph",B.Bm,"ArrowDown",B.Bn,"ArrowLeft",B.Bo,"ArrowRight",B.Bp,"ArrowUp",B.Bq,"Clear",B.Bv,"Control",B.Cb,"Delete",B.Bl,"End",B.Br,"Enter",B.Bk,"Home",B.Bs,"Insert",B.Bw,"Meta",B.Cc,"PageDown",B.Bt,"PageUp",B.Bu,"Shift",B.Cd],A.ac("bS<o,E<q?>>"))
+B.Ce=A.b(s([8589934850,8589934850,8589934851,null]),t.Z)
+B.p5=new A.bS(["*",B.Bx,"+",B.By,"-",B.BA,".",B.BB,"/",B.BC,"0",B.BD,"1",B.BE,"2",B.BI,"3",B.BJ,"4",B.BK,"5",B.BL,"6",B.BM,"7",B.BN,"8",B.BO,"9",B.BP,"Alt",B.Cb,"AltGraph",B.Bm,"ArrowDown",B.Bn,"ArrowLeft",B.Bo,"ArrowRight",B.Bp,"ArrowUp",B.Bq,"Clear",B.Bv,"Control",B.Cc,"Delete",B.Bl,"End",B.Br,"Enter",B.Bk,"Home",B.Bs,"Insert",B.Bw,"Meta",B.Cd,"PageDown",B.Bt,"PageUp",B.Bu,"Shift",B.Ce],A.ac("bS<o,E<q?>>"))
 B.Em=new A.bS([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],A.ac("bS<q,o>"))
 B.kh=new A.f(32)
 B.Db=new A.f(33)
@@ -69907,8 +69907,8 @@ B.O2=new A.xt(0,"checkbox")
 B.O3=new A.xt(1,"radio")
 B.O4=new A.xt(2,"toggle")
 B.z3=new A.p(0.01568627450980392,0,0,0,B.d)
-B.Ce=A.b(s([B.z3,B.G]),t.t_)
-B.O5=new A.hl(B.Ce)
+B.Cf=A.b(s([B.z3,B.G]),t.t_)
+B.O5=new A.hl(B.Cf)
 B.O6=new A.hl(null)
 B.co=new A.Ju(0,"horizontal")
 B.cp=new A.Ju(1,"vertical")
@@ -70098,11 +70098,11 @@ $.fL=function(){var s=t.n
 return A.b([A.b([0.41233895,0.35762064,0.18051042],s),A.b([0.2126,0.7152,0.0722],s),A.b([0.01932141,0.11916382,0.95034478],s)],t.zg)}()
 $.oc=A.b([95.047,100,108.883],t.n)
 $.alQ=function(){var s=t.N
-return A.b([A.aa(["label","Guruku","desc","Online Education Platform for Indonesian People which cover material from pre elementary to university","image","assets/guruku.png","playstore","https://play.google.com/store/apps/details?id=com.guruku.app","appstore","https://apps.apple.com/id/app/guruku-app/id6479021512"],s,s),A.aa(["label","Bebas","desc","One app for buying coffee to savings and investing","image","assets/bebas.jpg","playstore","https://play.google.com/store/apps/details?id=id.co.bankmas.bebas.retail","appstore","https://apps.apple.com/au/app/bebas-by-bank-mas/id6473168233"],s,s),A.aa(["label","Maukerja","desc","Best Platform for search jobs in Malaysia. Already been download for more than 500k!!","image","assets/maukerja.png","playstore","https://play.google.com/store/apps/details?id=my.maukerja.applicant","appstore","https://apps.apple.com/my/app/maukerja/id1383614538"],s,s),A.aa(["label","Ricebowl","desc","Find the latest job vacancies in Malaysia. Jobs are always updated. Register and apply for job today. Full-time, Part-time, and internships available.","image","assets/ricebowl.jpg","playstore","https://play.google.com/store/apps/details?id=my.ricebowl.applicant","appstore","https://apps.apple.com/my/app/ricebowl/id1459848985"],s,s),A.aa(["label","Mola TV","desc","Bring Cinema contents to your Home. Mola is an Online Streaming platform that already downloads more than 10 Million times.","image","assets/mola.png","playstore","https://play.google.com/store/apps/details?id=tv.mola.app&hl=en","appstore","https://apps.apple.com/jp/app/mola/id1473256917?l=en-US"],s,s),A.aa(["label","Junio Smart","desc","School integrated platform. 100k+ downloads","image","assets/junio_smart.png","playstore","https://play.google.com/store/apps/details?id=id.co.bri.juniosmart&hl=id","appstore","https://apps.apple.com/jp/app/junio-smart/id1462268358?l=en-US"],s,s),A.aa(["label","Brimola","desc","Gas Cylinder 3KG Order Platform. Already been downloaded more than 100k Users.","image","assets/brimola.png","playstore","https://play.google.com/store/apps/details?id=id.co.bri.brimolaa","appstore","https://apps.apple.com/id/app/brimola/id1462786205?l=id"],s,s),A.aa(["label","Harga Pangan","desc","Showing the price for items in market for Sleman Region, Indonesia.","image","assets/hps.png","playstore","https://play.google.com/store/apps/details?id=id.co.integraindonesia.infohargapangan"],s,s)],A.ac("x<ao<o,o>>"))}()
+return A.b([A.aa(["label","Guruku","desc","Online Education Platform for Indonesian People which cover material from pre elementary to university","image","assets/images/guruku.png","playstore","https://play.google.com/store/apps/details?id=com.guruku.app","appstore","https://apps.apple.com/id/app/guruku-app/id6479021512"],s,s),A.aa(["label","Bebas","desc","One app for buying coffee to savings and investing","image","assets/images/bebas.jpg","playstore","https://play.google.com/store/apps/details?id=id.co.bankmas.bebas.retail","appstore","https://apps.apple.com/au/app/bebas-by-bank-mas/id6473168233"],s,s),A.aa(["label","Maukerja","desc","Best Platform for search jobs in Malaysia. Already been download for more than 500k!!","image","assets/images/maukerja.png","playstore","https://play.google.com/store/apps/details?id=my.maukerja.applicant","appstore","https://apps.apple.com/my/app/maukerja/id1383614538"],s,s),A.aa(["label","Ricebowl","desc","Find the latest job vacancies in Malaysia. Jobs are always updated. Register and apply for job today. Full-time, Part-time, and internships available.","image","assets/images/ricebowl.jpg","playstore","https://play.google.com/store/apps/details?id=my.ricebowl.applicant","appstore","https://apps.apple.com/my/app/ricebowl/id1459848985"],s,s),A.aa(["label","Mola TV","desc","Bring Cinema contents to your Home. Mola is an Online Streaming platform that already downloads more than 10 Million times.","image","assets/images/mola.png","playstore","https://play.google.com/store/apps/details?id=tv.mola.app&hl=en","appstore","https://apps.apple.com/jp/app/mola/id1473256917?l=en-US"],s,s),A.aa(["label","Junio Smart","desc","School integrated platform. 100k+ downloads","image","assets/images/junio_smart.png","playstore","https://play.google.com/store/apps/details?id=id.co.bri.juniosmart&hl=id","appstore","https://apps.apple.com/jp/app/junio-smart/id1462268358?l=en-US"],s,s),A.aa(["label","Brimola","desc","Gas Cylinder 3KG Order Platform. Already been downloaded more than 100k Users.","image","assets/images/brimola.png","playstore","https://play.google.com/store/apps/details?id=id.co.bri.brimolaa","appstore","https://apps.apple.com/id/app/brimola/id1462786205?l=id"],s,s),A.aa(["label","Harga Pangan","desc","Showing the price for items in market for Sleman Region, Indonesia.","image","assets/images/hps.png","playstore","https://play.google.com/store/apps/details?id=id.co.integraindonesia.infohargapangan"],s,s)],A.ac("x<ao<o,o>>"))}()
 $.amD=function(){var s=t.N
-return A.b([A.aa(["logo","assets/flutter.png","name","Flutter"],s,s),A.aa(["logo","assets/java.png","name","Java"],s,s),A.aa(["logo","assets/kotlin.png","name","Kotlin"],s,s),A.aa(["logo","assets/php.png","name","PHP"],s,s),A.aa(["logo","assets/python.png","name","Python"],s,s),A.aa(["logo","assets/firebase.png","name","Firebase"],s,s),A.aa(["logo","assets/mysql.png","name","MySql"],s,s),A.aa(["logo","assets/github.png","name","Github"],s,s),A.aa(["logo","assets/slack.png","name","Slack"],s,s),A.aa(["logo","assets/jira.png","name","Jira"],s,s)],A.ac("x<ao<o,o>>"))}()
+return A.b([A.aa(["logo","assets/images/flutter.png","name","Flutter"],s,s),A.aa(["logo","assets/images/java.png","name","Java"],s,s),A.aa(["logo","assets/images/kotlin.png","name","Kotlin"],s,s),A.aa(["logo","assets/images/php.png","name","PHP"],s,s),A.aa(["logo","assets/images/python.png","name","Python"],s,s),A.aa(["logo","assets/images/firebase.png","name","Firebase"],s,s),A.aa(["logo","assets/images/mysql.png","name","MySql"],s,s),A.aa(["logo","assets/images/github.png","name","Github"],s,s),A.aa(["logo","assets/images/slack.png","name","Slack"],s,s),A.aa(["logo","assets/images/jira.png","name","Jira"],s,s)],A.ac("x<ao<o,o>>"))}()
 $.amJ=function(){var s=t.N
-return A.b([A.aa(["title","Flutter Developer - Guruku","desc","Built & delivered features for Guruku.","image","assets/guruku.png"],s,s),A.aa(["title","Flutter Developer - Bank MAS","desc","Developing next-gen mobile banking app.","image","assets/mas.jpeg"],s,s),A.aa(["title","Flutter Developer - A Job Thing","desc","Native + hybrid mobile apps, 600k+ downloads.","image","assets/ajt.png"],s,s),A.aa(["title","Android Developer - Mola TV","desc","Developed app from scratch, 10M+ installs.","image","assets/mola.png"],s,s),A.aa(["title","Android Developer - Mitra Integrasi","desc","Educational & gas app, sales impact > 4T IDR.","image","assets/mii.png"],s,s),A.aa(["title","Jr. Developer - Integra Inovasi","desc","Android app to help reduce poverty.","image","assets/integra.jpeg"],s,s)],A.ac("x<ao<o,o>>"))}()
+return A.b([A.aa(["title","Flutter Developer - Guruku","desc","Built & delivered features for Guruku.","image","assets/images/guruku.png"],s,s),A.aa(["title","Flutter Developer - Bank MAS","desc","Developing next-gen mobile banking app.","image","assets/images/mas.jpeg"],s,s),A.aa(["title","Flutter Developer - A Job Thing","desc","Native + hybrid mobile apps, 600k+ downloads.","image","assets/images/ajt.png"],s,s),A.aa(["title","Android Developer - Mola TV","desc","Developed app from scratch, 10M+ installs.","image","assets/images/mola.png"],s,s),A.aa(["title","Android Developer - Mitra Integrasi","desc","Educational & gas app, sales impact > 4T IDR.","image","assets/images/mii.png"],s,s),A.aa(["title","Jr. Developer - Integra Inovasi","desc","Android app to help reduce poverty.","image","assets/images/integra.jpeg"],s,s)],A.ac("x<ao<o,o>>"))}()
 $.as3=A.y(t.S,A.ac("aAt"))
 $.aiC=null
 $.aiA=null
@@ -70151,7 +70151,7 @@ r($,"awW","aos",()=>A.awx())
 r($,"aDH","aoQ",()=>A.dc().gzg()+"roboto/v20/KFOmCnqEu92Fr1Me5WZLCzYlKw.ttf")
 r($,"aD6","aoq",()=>A.awm(A.alq(A.alq(A.amA(),"window"),"FinalizationRegistry"),A.bs(new A.aby())))
 r($,"aEg","apb",()=>new A.a_b())
-s($,"aDc","aou",()=>A.asC(B.CJ))
+s($,"aDc","aou",()=>A.asC(B.CK))
 s($,"aDb","acV",()=>A.WU(A.aqb($.aou())))
 s($,"aCZ","aom",()=>A.ajG(A.w(A.a6(),"ParagraphBuilder")))
 s($,"aEn","ape",()=>{var q=t.N,p=A.ac("+breaks,graphemes,words(pO,pO,pO)"),o=A.ae5(1e5,q,p),n=A.ae5(1e4,q,p)
